@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.lapis_semi.lexide.managedbuilder.ui.config.debug.976895649">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.lapis_semi.lexide.managedbuilder.ui.config.debug.976895649" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.lapis_semi.lexide.core.errorparser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="com.lapis_semi.lexide.managedbuilder.ui.propertyLapis" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=com.lapis_semi.lexide.managedbuilder.ui.propertyLapis,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -f" description="" errorParsers="com.lapis_semi.lexide.core.errorparser;org.eclipse.cdt.core.GmakeErrorParser" id="com.lapis_semi.lexide.managedbuilder.ui.config.debug.976895649" name="Debug" parent="com.lapis_semi.lexide.managedbuilder.ui.config.debug">
+					<folderInfo id="com.lapis_semi.lexide.managedbuilder.ui.config.debug.976895649." name="/" resourcePath="">
+						<toolChain id="com.lapis_semi.lexide.managedbuilder.ui.toolchain.u8u16.debug.1169446768" name="LAPIS U8/U16 Toolchain" superClass="com.lapis_semi.lexide.managedbuilder.ui.toolchain.u8u16.debug">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.PE" id="com.lapis_semi.lexide.managedbuilder.ui.platform.lapis.807465241" isAbstract="false" name="LAPIS Target Platform" osList="all" superClass="com.lapis_semi.lexide.managedbuilder.ui.platform.lapis"/>
+							<builder buildPath="${workspace_loc:/Chapter 1 GPIO}/Debug" id="com.lapis_semi.lexide.managedbuilder.ui.builder.make.604805317" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Builder (LAPIS)" superClass="com.lapis_semi.lexide.managedbuilder.ui.builder.make"/>
+							<tool id="com.lapis_semi.lexide.managedbuilder.ui.tool.common.1278501172" name="Common" superClass="com.lapis_semi.lexide.managedbuilder.ui.tool.common">
+								<option id="com.lapis_semi.lexide.managedbuilder.ui.target.mcu.611515446" name="Target MCU" superClass="com.lapis_semi.lexide.managedbuilder.ui.target.mcu" value="ML621367" valueType="string"/>
+							</tool>
+							<tool id="com.lapis_semi.lexide.managedbuilder.ui.tool.compiler.311575766" name="Compiler" superClass="com.lapis_semi.lexide.managedbuilder.ui.tool.compiler">
+								<inputType id="com.lapis_semi.lexide.managedbuilder.ui.comp.inputtype.1163900190" name="Compiler Input" superClass="com.lapis_semi.lexide.managedbuilder.ui.comp.inputtype"/>
+							</tool>
+							<tool id="com.lapis_semi.lexide.managedbuilder.ui.tool.assembler.1189087639" name="Assembler" superClass="com.lapis_semi.lexide.managedbuilder.ui.tool.assembler">
+								<inputType id="com.lapis_semi.lexide.managedbuilder.ui.asm.inputtype.201083615" name="ASM input" superClass="com.lapis_semi.lexide.managedbuilder.ui.asm.inputtype"/>
+							</tool>
+							<tool id="com.lapis_semi.lexide.managedbuilder.ui.tool.linker.1566001069" name="Linker" superClass="com.lapis_semi.lexide.managedbuilder.ui.tool.linker">
+								<option id="com.lapis_semi.lexide.managedbuilder.ui.link.muldiv.enable.718227342" name="(Hide) Enable multiplication and division accelerator setting" superClass="com.lapis_semi.lexide.managedbuilder.ui.link.muldiv.enable" value="true" valueType="boolean"/>
+								<inputType id="com.lapis_semi.lexide.managedbuilder.ui.link.inputtype.1705347141" name="Linker Input" superClass="com.lapis_semi.lexide.managedbuilder.ui.link.inputtype"/>
+							</tool>
+							<tool id="com.lapis_semi.lexide.managedbuilder.ui.tool.objconverter.1984841156" name="Object converter" superClass="com.lapis_semi.lexide.managedbuilder.ui.tool.objconverter"/>
+							<tool id="com.lapis_semi.lexide.managedbuilder.ui.tool.romgenerator.503785723" name="HEX Converter" superClass="com.lapis_semi.lexide.managedbuilder.ui.tool.romgenerator"/>
+							<tool id="com.lapis_semi.lexide.managedbuilder.ui.tool.scu16.1400031417" name="Stack Calculator" superClass="com.lapis_semi.lexide.managedbuilder.ui.tool.scu16"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.lapis_semi.lexide.managedbuilder.ui.config.release.1696461517">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.lapis_semi.lexide.managedbuilder.ui.config.release.1696461517" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.lapis_semi.lexide.core.errorparser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="com.lapis_semi.lexide.managedbuilder.ui.propertyLapis" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=com.lapis_semi.lexide.managedbuilder.ui.propertyLapis,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -f" description="" errorParsers="com.lapis_semi.lexide.core.errorparser;org.eclipse.cdt.core.GmakeErrorParser" id="com.lapis_semi.lexide.managedbuilder.ui.config.release.1696461517" name="Release" parent="com.lapis_semi.lexide.managedbuilder.ui.config.release">
+					<folderInfo id="com.lapis_semi.lexide.managedbuilder.ui.config.release.1696461517." name="/" resourcePath="">
+						<toolChain id="com.lapis_semi.lexide.managedbuilder.ui.toolchain.u8u16.release.1858129486" name="LAPIS U8/U16 Toolchain" superClass="com.lapis_semi.lexide.managedbuilder.ui.toolchain.u8u16.release">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.PE" id="com.lapis_semi.lexide.managedbuilder.ui.platform.lapis.1958980262" isAbstract="false" name="LAPIS Target Platform" osList="all" superClass="com.lapis_semi.lexide.managedbuilder.ui.platform.lapis"/>
+							<builder buildPath="${workspace_loc:/Chapter 1 GPIO}/Release" id="com.lapis_semi.lexide.managedbuilder.ui.builder.make.23882316" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Builder (LAPIS)" superClass="com.lapis_semi.lexide.managedbuilder.ui.builder.make"/>
+							<tool id="com.lapis_semi.lexide.managedbuilder.ui.tool.common.659264939" name="Common" superClass="com.lapis_semi.lexide.managedbuilder.ui.tool.common">
+								<option id="com.lapis_semi.lexide.managedbuilder.ui.target.mcu.1187205010" name="Target MCU" superClass="com.lapis_semi.lexide.managedbuilder.ui.target.mcu" value="ML621367" valueType="string"/>
+							</tool>
+							<tool id="com.lapis_semi.lexide.managedbuilder.ui.tool.compiler.2124446732" name="Compiler" superClass="com.lapis_semi.lexide.managedbuilder.ui.tool.compiler">
+								<inputType id="com.lapis_semi.lexide.managedbuilder.ui.comp.inputtype.746687548" name="Compiler Input" superClass="com.lapis_semi.lexide.managedbuilder.ui.comp.inputtype"/>
+							</tool>
+							<tool id="com.lapis_semi.lexide.managedbuilder.ui.tool.assembler.1267331856" name="Assembler" superClass="com.lapis_semi.lexide.managedbuilder.ui.tool.assembler">
+								<inputType id="com.lapis_semi.lexide.managedbuilder.ui.asm.inputtype.1737809952" name="ASM input" superClass="com.lapis_semi.lexide.managedbuilder.ui.asm.inputtype"/>
+							</tool>
+							<tool id="com.lapis_semi.lexide.managedbuilder.ui.tool.linker.1064526721" name="Linker" superClass="com.lapis_semi.lexide.managedbuilder.ui.tool.linker">
+								<option id="com.lapis_semi.lexide.managedbuilder.ui.link.muldiv.enable.1918234951" name="(Hide) Enable multiplication and division accelerator setting" superClass="com.lapis_semi.lexide.managedbuilder.ui.link.muldiv.enable" value="true" valueType="boolean"/>
+								<inputType id="com.lapis_semi.lexide.managedbuilder.ui.link.inputtype.963621953" name="Linker Input" superClass="com.lapis_semi.lexide.managedbuilder.ui.link.inputtype"/>
+							</tool>
+							<tool id="com.lapis_semi.lexide.managedbuilder.ui.tool.objconverter.547821277" name="Object converter" superClass="com.lapis_semi.lexide.managedbuilder.ui.tool.objconverter"/>
+							<tool id="com.lapis_semi.lexide.managedbuilder.ui.tool.romgenerator.479001224" name="HEX Converter" superClass="com.lapis_semi.lexide.managedbuilder.ui.tool.romgenerator"/>
+							<tool id="com.lapis_semi.lexide.managedbuilder.ui.tool.scu16.1135651918" name="Stack Calculator" superClass="com.lapis_semi.lexide.managedbuilder.ui.tool.scu16"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="Chapter 1 GPIO.com.lapis_semi.lexide.managedbuilder.ui.prjtype.lapis.exe.1652153794" name="Executable (LAPIS)" projectType="com.lapis_semi.lexide.managedbuilder.ui.prjtype.lapis.exe"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="org.eclipse.cdt.core.language.mapping">
+		<project-mappings>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cHeader" language="com.lapis_semi.lexide.parser.ccu8"/>
+			<content-type-mapping configuration="" content-type="org.eclipse.cdt.core.cSource" language="com.lapis_semi.lexide.parser.ccu8"/>
+		</project-mappings>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+</cproject>

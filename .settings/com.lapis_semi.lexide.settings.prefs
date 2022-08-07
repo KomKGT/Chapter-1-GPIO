@@ -1,0 +1,8 @@
+Project.CreatedVersion=1.1.0
+Project.LatestVersion=1.1.0
+TargetMCU.Category=ML62Q1000
+TargetMCU.Group=ML62Q1300
+TargetMCU.LSI=ML621367
+ToolchainVersion.UseLatest=true
+ToolchainVersion.Version=
+eclipse.preferences.version=1
