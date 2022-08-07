@@ -48,7 +48,7 @@ int main( void )
 	Init_MCU();
 	Init_LED();
 
-
+	//Test
 	/*=== End of program ===*/
 	//---------------------------------------------------------------
 	wdt_clear();
