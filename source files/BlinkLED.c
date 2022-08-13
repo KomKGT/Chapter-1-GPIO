@@ -35,7 +35,7 @@ void Init_LED(void)
 void LEDon(void)
 {
 	LED_Out=0; // P21DO = 0
-	P20DO=0;   //Test branch
+	P20DO=0;
 }
 void LEDoff(void)
 {
