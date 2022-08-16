@@ -35,12 +35,12 @@ void Init_LED(void)
 void LEDon(void)
 {
 	LED_Out=0; // P21DO = 0
-	P20DO=0;
+	P20DO=1;
 }
 void LEDoff(void)
 {
-	LED_Out=1;  // P21DO = 1
-	P20DO=1;
+	LED_Out=1;  // P21DO = 1  1 = off, 0 = on
+	P20DO=0;
 }
 
 

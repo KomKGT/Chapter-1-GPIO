@@ -1,7 +1,7 @@
 RASU8(ML621367)Relocatable Assembler, Ver.1.80.4    assemble list. page:   1 
  Source File: source files\BlinkLED.asm
  Object File: source files\BlinkLED.obj
- Date  : 2022/06/07 Tue.[16:21]
+ Date  : 2022/08/16 Tue.[14:32]
  Title : 
 ## Loc. Object                   Line   Source Statements
 
@@ -53,8 +53,8 @@ RASU8(ML621367)Relocatable Assembler, Ver.1.80.4    assemble list. page:   1
                                    46   CLINEA 0000H 0001H 0016H 0001H 0001H
                                    47   CBLOCK 7 2 22
                                    48   
-                                   49   ;;	P21DO=1;	// Output = 0
-                                   50   CLINEA 0000H 0001H 0017H 0002H 0017H
+                                   49   ;;	P21DO=1;	// Output = 1 LED is on
+                                   50   CLINEA 0000H 0001H 0017H 0002H 0021H
 00:0000 90-A0 21-F2                51   	sb	0f221h.1
                                    52   
                                    53   ;;	P21IE=0;P21OE=1;P21OD=0;P21PU=0;	// Disable input, Enable output, CMOS output, No pull
@@ -71,8 +71,8 @@ RASU8(ML621367)Relocatable Assembler, Ver.1.80.4    assemble list. page:   1
 00:001C D2-A0 23-F2                64   	rb	0f223h.5
 00:0020 C2-A0 23-F2                65   	rb	0f223h.4
                                    66   
-                                   67   ;;	P20DO=1;	// Output = 0
-                                   68   CLINEA 0000H 0001H 001BH 0002H 0017H
+                                   67   ;;	P20DO=1;	// Output = 1  LED is on
+                                   68   CLINEA 0000H 0001H 001BH 0002H 0022H
 00:0024 80-A0 21-F2                69   	sb	0f221h.0
                                    70   
                                    71   ;;	P20IE=0;P20OE=1;P20OD=0;P20PU=0;	// Disable input, Enable output, CMOS output, No pull
@@ -107,13 +107,13 @@ RASU8(ML621367)Relocatable Assembler, Ver.1.80.4    assemble list. page:   1
                                   100   CLINEA 0000H 0001H 0024H 0001H 0001H
                                   101   CBLOCK 8 2 36
                                   102   
-                                  103   ;;	LED_Out=0;
-                                  104   CLINEA 0000H 0001H 0025H 0002H 000BH
+                                  103   ;;	LED_Out=0; // P21DO = 0
+                                  104   CLINEA 0000H 0001H 0025H 0002H 0018H
 00:0000 92-A0 21-F2               105   	rb	0f221h.1
                                   106   
-                                  107   ;;	P20DO=0;
+                                  107   ;;	P20DO=1;
                                   108   CLINEA 0000H 0001H 0026H 0002H 0009H
-00:0004 82-A0 21-F2               109   	rb	0f221h.0
+00:0004 80-A0 21-F2               109   	sb	0f221h.0
                                   110   CBLOCKEND 8 2 39
                                   111   
                                   112   ;;}
@@ -133,13 +133,13 @@ RASU8(ML621367)Relocatable Assembler, Ver.1.80.4    assemble list. page:   1
                                   126   CLINEA 0000H 0001H 0029H 0001H 0001H
                                   127   CBLOCK 9 2 41
                                   128   
-                                  129   ;;	LED_Out=1;
-                                  130   CLINEA 0000H 0001H 002AH 0002H 000BH
+                                  129   ;;	LED_Out=1;  // P21DO = 1  1 = off, 0 = on
+                                  130   CLINEA 0000H 0001H 002AH 0002H 002AH
 00:0000 90-A0 21-F2               131   	sb	0f221h.1
                                   132   
-                                  133   ;;	P20DO=1;
+                                  133   ;;	P20DO=0;
                                   134   CLINEA 0000H 0001H 002BH 0002H 0009H
-00:0004 80-A0 21-F2               135   	sb	0f221h.0
+00:0004 82-A0 21-F2               135   	rb	0f221h.0
                                   136   CBLOCKEND 9 2 44
                                   137   
                                   138   ;;}
